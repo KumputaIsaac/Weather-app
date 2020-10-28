@@ -1,0 +1,13 @@
+.flex{
+    display :flex;
+}
+
+
+  input{
+    border: none;
+    text-decoration: underline;
+    font-size: large;
+    text-align: center;
+    opacity: 0.5;
+}
+

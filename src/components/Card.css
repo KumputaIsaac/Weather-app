@@ -1,0 +1,24 @@
+.space{
+    justify-content: space-around;
+}
+
+.width{
+    width: 150px;
+}
+
+img{
+    margin-top: 30px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.even{
+  justify-content: space-evenly;
+  
+}
+
+.center{
+    text-align: center;
+}
