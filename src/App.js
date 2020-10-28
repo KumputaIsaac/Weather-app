@@ -1,7 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import Header from './components/Header'
 import Card from './components/Card'
-import Particle from './components/Particles/Particles';
 import './App.css'
 
 
@@ -38,7 +37,6 @@ export default function App() {
 
   return (
     <div className='app'>
-      <Particle className='particles' />
       
       
       <Header getChange={getChange}  passSearch={passSearch}/>
