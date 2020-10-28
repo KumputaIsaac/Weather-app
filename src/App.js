@@ -16,7 +16,7 @@ export default function App() {
 
   useEffect(()=>{
     async function getReport() {
-    const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=bb0f75e46270405397c151931202510&q=${query}`)
+    const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=bb0f75e46270405397c151931202510&q=${query}`)
     const data = await response.json()
     setData(data)
     
